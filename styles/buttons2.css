@@ -1,0 +1,118 @@
+.uber{
+    background-color: black;
+    color: white;
+    width:110px;
+    height: 40px;
+    border: none;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+}
+
+.uber:hover{
+    opacity: 0.8;
+}
+
+.amazon{
+    color: black;
+    background-color: rgb(255, 216, 20);
+    height: 40px;
+    width: 230px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+}
+
+.amazon:hover{
+    background-color: rgb(243, 205, 13);
+}
+
+.github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    border: none;
+    height: 47px;
+    width: 110px;
+    border-radius: 8px;
+    margin-right: 8px;
+    transition: box-shadow 0.15s;
+}
+
+.github:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bs1{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    font-weight: bold;
+    height: 42px;
+    border: none;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+}
+
+.bs1:hover{
+    background-color: rgb(111, 73, 166);
+}
+
+.bs2{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    font-weight: bold;
+    height: 42px;
+    border-color: rgb(108, 117, 125);
+    border-width: 1.5px;
+    width: 130px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: backround-color 0.15s, color 0.15s;
+}
+
+.bs2:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linked1{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    font-weight: bold;
+    height: 42px;
+    border: none;
+    width: 260px;
+    font-size: 16px;
+    border-radius: 21px;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+}
+
+.linked1:hover{
+    background-color: rgb(4, 92, 181);
+}
+
+.linked2{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    font-weight: bold;
+    height: 42px;
+    border-width: 1.5px;
+    border-color: rgb(10, 102, 194);
+    width: 100px;
+    font-size: 16px;
+    border-radius: 21px;
+    margin-right: 8px;
+    transition: background-color 0.15s, border-width 0.1s;
+}
+
+.linked2:hover{
+    background-color: rgb(241, 241, 241);
+    border-width: 3px;
+}

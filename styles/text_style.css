@@ -1,0 +1,23 @@
+
+	.Title{
+		font-family: Montserrat;
+		font-weight: bold;
+		text-align: center;
+		font-size: 36px;
+		margin-bottom: 0;
+	}
+
+	.Description{
+		font-family: Montserrat;
+		text-align: center;
+		font-size: 24px;
+		margin-top: 12px;
+	}
+
+	.Delivery{
+		cursor: pointer;
+	}
+	
+	.Delivery:hover{
+		text-decoration: underline;
+	}

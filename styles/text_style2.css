@@ -1,0 +1,62 @@
+.Tahoma{
+    font-family: tahoma;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Arial{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+.Arial2{
+    font-family: Arial;
+    font-size: 25px;
+    font-style: italic;
+    color:red;
+    margin-top: 5px;
+}
+
+.Verdana{
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 30px;
+    width: 300px;
+}
+
+.Span{
+    font-family: Verdana;
+    font-weight: lighter;
+    font-size: 26px;
+    color: gray;
+}
+
+.Verdana2{
+    font-family: Verdana;
+    font-size: 26px;
+    width: 500px;
+}
+
+.A0{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 36px;
+    width:500px;
+    text-align: center;
+}
+
+.A1{ 
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 5px;
+    white-space: initial;
+}
+
+.A2{
+    font-family: Arial;
+    color: blue;
+    font-size: 20px;
+}
