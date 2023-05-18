@@ -4,7 +4,7 @@
     justify-content: space-between;
 
     margin-right: 0;
-    height: 55px;
+    height: 75px;
 
     background-color: rgb(222, 222, 222);
     border-bottom-color: rgb(222, 222, 222);
@@ -58,7 +58,7 @@
 .search-bar{
     background-color: rgb(22, 22, 22);
     flex: 1;
-    height: 34px;
+    height: 54px;
     padding-left: 10px;
     font-size: 16px;
     border-width: 1px;
@@ -76,8 +76,8 @@
 }
 
 .search-button{
-    width: 36px;
-    height: 36px;
+    width: 56px;
+    height: 56px;
     background-color: white;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
