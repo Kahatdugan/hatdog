@@ -14,6 +14,22 @@
     padding-right: 20px;
 }
 
+@media (min-width: 1024px) {
+    .photo-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photo-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 767px) {
+    .photo-grid{
+        grid-template-columns: 1fr;
+    }
+}
 
 .horizontal-row{
     display: grid;
