@@ -1,0 +1,99 @@
+.calculator-app {
+    width: 100%;
+    max-height: 800px;
+    border: 1px solid red;
+    margin-bottom: 50px;
+    max-width: 540px;
+    background: black;
+    margin: auto;
+    padding: 40px 30px 70px;
+    text-align: center; 
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+#keys {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    grid-gap: 5px;
+    padding: 20px 20px 15px;
+    place-content: center;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+
+.number {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#display {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    font-size: 65px;
+    color: white;
+    text-align: right;
+    border: none;
+    background-color: rgb(0, 0, 0);
+}
+
+
+#keys button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: #ffffff;
+    border: none;
+    font-size: 25px;
+    background-color: #333333;
+    vertical-align: center;
+    text-align: center; 
+}
+
+#keys button:hover {
+    cursor: pointer;
+}
+
+#keys button:nth-child(17) {
+    grid-area: 5 / 1/ span 5 / span 2;
+    width: 215px;
+    border-radius: 50px;
+}
+
+#keys button:nth-child(4),
+#keys button:nth-child(8),
+#keys button:nth-child(12),
+#keys button:nth-child(16),
+#keys button:nth-child(19) {
+    background-color: #fea00c;
+}
+
+#keys button:nth-child(1),
+#keys button:nth-child(2),
+#keys button:nth-child(3) {
+    background-color: #a5a5a5;
+    color: #333333;
+}

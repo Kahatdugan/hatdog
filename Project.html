@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project</title>
+        <link rel="stylesheet" href="styles/list.css">
+        <link rel="stylesheet" href="styles/todo.css">
+        <link rel="stylesheet" href="styles/calculator.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="todo-app">
+                <h2>To-Do List <img src="images/icon.png"></h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add your text" onkeydown="onEnter(event)">
+                    <button onclick="addTask()">Add</button>
+                </div>
+                <ul id="list-container">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+                </ul>
+            </div>
+            <div class="calculator-app">
+                <div class="number">
+                    <input id="display" readonly>
+                </div>
+                <div id="keys">
+                    <button onClick="resetDigit()">AC</button>
+                    <button>+/-</button>
+                    <button onClick="addDigit('%')">%</button>
+                    <button onClick="addDigit('/')">/</button>
+                    <button onClick="addDigit('7')">7</button>
+                    <button onClick="addDigit('8')">8</button>
+                    <button onClick="addDigit('9')">9</button>
+                    <button onClick="addDigit('*')">x</button>
+                    <button onClick="addDigit('4')">4</button>
+                    <button onClick="addDigit('5')">5</button>
+                    <button onClick="addDigit('6')">6</button>
+                    <button onClick="addDigit('-')">-</button>
+                    <button onClick="addDigit('1')">1</button>
+                    <button onClick="addDigit('2')">2</button>
+                    <button onClick="addDigit('3')">3</button>
+                    <button onClick="addDigit('+')">+</button>
+                    <button onClick="addDigit('0')">0</button>
+                    <button onClick="addDigit('.')">.</button>
+                    <button onClick="solveFunction()">=</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="scripts/todo.js"></script>
+    <script type="text/javascript" src="scripts/calculator.js"></script>
+</html>
